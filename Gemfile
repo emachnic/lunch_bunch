@@ -8,7 +8,6 @@ gem 'sass', '3.1.1'
 gem 'omniauth', '0.2.0.beta4'
 gem 'pg', '0.10.1', :group => :production
 gem 'rails', '3.0.7'
-gem 'fabrication', '0.9.5'
 gem 'ffaker', '1.0.0'
 gem 'nokogiri', '1.4.4'
 
@@ -18,6 +17,9 @@ end
 
 group :development, :test do
   gem 'rspec-rails', '2.5.0'
+  gem 'fabrication', '0.9.5'
+  gem 'capybara', '0.4.0'
+  gem 'cucumber-rails', '0.4.1'
 end
 
 group :test do
@@ -25,7 +27,3 @@ group :test do
   gem 'shoulda', '2.11.3'
 end
 
-group :cucumber, :test do
-  gem 'capybara', '0.4.0'
-  gem 'cucumber-rails', '0.4.1'
-end
