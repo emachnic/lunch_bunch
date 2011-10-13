@@ -5,12 +5,12 @@ gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
 gem 'gravtastic', '3.1.0'
 gem 'haml', '3.1.1'
 gem 'sass', '3.1.1'
-gem 'heroku', '1.17.11'
 gem 'omniauth', '0.2.0.beta4'
-gem 'pg', '0.10.1'
+gem 'pg', '0.10.1', :group => :production
 gem 'rails', '3.0.7'
 gem 'fabrication', '0.9.5'
 gem 'ffaker', '1.0.0'
+gem 'nokogiri', '1.4.4'
 
 group :development do
   gem 'heroku_san', '1.0.8'
